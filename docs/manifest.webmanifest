@@ -1,13 +1,31 @@
-{
-  "background_color": "#1f1f1f",
-  "description": "Official website!",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "1D10T1C STUD10S",
-  "orientation": "any",
+"name": "1D10T1C STUD10S",
+  "short_name": "1DST",
+  "description": "Our official website!",
   "scope": "/",
-  "short_name": "1D10T1C STUD10S",
   "start_url": "/",
-  "theme_color": "#49536c",
-  "id": "1D10T1C-STUD10S"
+  "background_color": "#3d3d3d",
+  "theme_color": "#dcdcdc",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/logonew.png",
+      "type": "image/png",
+      "sizes": "634x634"
+    }
+  ],
+  "id": "1DSTW",
+  "categories": [
+    "books",
+    "games",
+    "utilities"
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "fullscreen",
+    "window-controls-overlay"
+  ],
+  "dir": "auto",
+  "lang": "en",
+  "orientation": "any"
 }
