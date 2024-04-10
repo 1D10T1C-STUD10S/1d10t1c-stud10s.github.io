@@ -1,0 +1,13 @@
+{
+  "background_color": "#1f1f1f",
+  "description": "Official website!",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "1D10T1C STUD10S",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "1D10T1C STUD10S",
+  "start_url": "/",
+  "theme_color": "#49536c",
+  "id": "1D10T1C-STUD10S"
+}
