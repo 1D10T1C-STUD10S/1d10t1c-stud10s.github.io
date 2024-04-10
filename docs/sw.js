@@ -1,5 +1,5 @@
 // Change this to your repository name
-var GHPATH = '/1d10t1c-stud10s.github.io';
+var GHPATH = '/';
  
 // Choose a different app prefix name
 var APP_PREFIX = '1S';
