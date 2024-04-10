@@ -24,10 +24,10 @@ name                     : "melonmasteristaken"
 description              : "Official Website!"
 url                      : "1d10t1c-stud10s.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "1D10T1C-STUD10S/1d110t1c-stud10s.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "logonew.png"
+masthead_title           : # overrides the website title displayed in the masthead
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
