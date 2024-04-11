@@ -31,3 +31,5 @@ sidebar: []
 <h3 id="for-more-check-out-our-wiki-">For more, check out our wiki!</h3>
 <p><a href="https://1d10t1c-stud10s.github.io/more-to-explore/">To the MtE wiki</a></p>
 
+<hr>
+
