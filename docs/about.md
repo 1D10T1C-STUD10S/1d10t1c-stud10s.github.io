@@ -7,7 +7,8 @@ title: About
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap')
 </style>
 
-<h1>About us!</h1>
+<hr>
+<h1 id=about-us>About us!</h1>
 
 <p>We are humans who live on Earth (of course)</p>
 <p>Our goal is to make games and be useful lads, because society is mean, we made these games for you to feel less sad.</p>
