@@ -10,8 +10,10 @@ top: 1
 sidebar: []
 ---
 
-<h1 id="more-to-explore">More to Explore</h1>
 <hr>
+<h2 id="more-to-explore">More to Explore</h2>
+<hr>
+<p>Coming officially April 16-18! We are almost finished with the update and are polishing the rough edges here and there. The wiki has some of the updated content so do check it out!</p>
 
 <p>Version 1.5</p>
 <ul>
