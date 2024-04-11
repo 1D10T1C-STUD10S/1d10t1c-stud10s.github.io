@@ -8,7 +8,7 @@ title: About
 </style>
 
 <hr>
-<h1 id=about-us>About us!</h1>
+<h1 id="about-us">About us!</h1>
 
 <p>We are humans who live on Earth (of course)</p>
 <p>Our goal is to make games and be useful lads, because society is mean, we made these games for you to feel less sad.</p>
