@@ -16,4 +16,4 @@ title: About
 <hr>
 <p><a href="https://1d10t1c-stud10s.github.io/more-to-explore/about.html">To our Meet the Team page!</a></p>
 
-
+[To our Discord](https://discord.gg/Db8UqZNPcU)
