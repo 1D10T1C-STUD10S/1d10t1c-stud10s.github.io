@@ -1,31 +1,30 @@
-"name": "1D10T1C STUD10S",
+{
+  // Name of the app and short name in case there isn't enough space
+  "name": "1D10T1C STUD10S",
   "short_name": "1DST",
-  "description": "Our official website!",
+  // Description what your app is
+  "description": "Official Website!",
+ 
+  // Scope and start URL - these need to change to yours
   "scope": "/",
   "start_url": "/",
-  "background_color": "#3d3d3d",
-  "theme_color": "#dcdcdc",
-  "display": "standalone",
+ 
+  // colours of the app as displayed in the installer
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+ 
+  // Display of the app. 
+  //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
+  "display": "standalone", 
+ 
+  // The possible icons to display. Make sure to change the src URL,
+  // the type and the size to your needs. If the size isn't correct, 
+  // you may not be able to install the app. 
   "icons": [
-    {
-      "src": "/logonew.png",
-      "type": "image/png",
-      "sizes": "289x230"
-    }
-  ],
-  "id": "1DSTW",
-  "categories": [
-    "books",
-    "games",
-    "utilities"
-  ],
-  "display_override": [
-    "standalone",
-    "minimal-ui",
-    "fullscreen",
-    "window-controls-overlay"
-  ],
-  "dir": "auto",
-  "lang": "en",
-  "orientation": "any"
-
+      {
+        "src": "/1SLogo.png",
+        "type": "image/png",
+        "sizes": "1900x1900"
+      }
+  ]
+}
