@@ -10,4 +10,23 @@ top: 1
 sidebar: []
 ---
 
-<h1>More to Explore</h1>
+<h1 id="more-to-explore">More to Explore</h1>
+<hr>
+
+<p>Version 1.5</p>
+<ul>
+<li>Revamped most biomes</li>
+<li>Added 30+ new structures</li>
+<li>Added 40+ new mobs</li>
+<li>Added 30+ new blocks</li>
+<li>Added 40+ new items</li>
+<li>Added a quest system</li>
+<li>Added storyline quest system</li>
+</ul>
+<h3 id="download-links-">Download links:</h3>
+<p><a href="https://1d10t1c-stud10s.github.io/more-to-explore/links.html">To MtE downloads</a></p>
+<hr>
+
+<h3 id="for-more-check-out-our-wiki-">For more, check out our wiki!</h3>
+<p><a href="https://1d10t1c-stud10s.github.io/more-to-explore/">To the MtE wiki</a></p>
+
