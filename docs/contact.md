@@ -13,4 +13,5 @@ title: Contact
 <h3 id="email-melonmasteristaken-gmail-com">Email: melonmasteristaken@gmail.com</h3>
 <h3 id="discord-melonmasteristaken-or-bloxinobie">Discord: @melonmasteristaken or @bloxinobie</h3>
 <h3 id="or-via-our-discord-server">Or via our Discord Server!</h3>
+[To our Discord](https://discord.gg/Db8UqZNPcU)
 <hr>
