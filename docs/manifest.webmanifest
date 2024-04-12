@@ -1,20 +1,12 @@
 {
   "name": "1D10T1C STUD10S",
   "short_name": "1DST",
-
   "description": "Official Website!",
- 
   "scope": "/",
   "start_url": "/",
- 
-
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
- 
-
   "display": "standalone", 
- 
-
   "icons": [
       {
         "src": "/1SLogo.png",
