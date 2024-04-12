@@ -1,6 +1,8 @@
 {
   "name": "1D10T1C STUD10S",
   "short_name": "1D10T1C STUD10S",
+  "id": "1DST",
+  "description": "1D10T1C STUD10S official website!",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
