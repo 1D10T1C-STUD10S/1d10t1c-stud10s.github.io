@@ -13,8 +13,8 @@
             "type": "image/png"
         },
         {
-            "src": "logo_backup.png",
-            "sizes": "380x380",
+            "src": "logo760x760.png",
+            "sizes": "760x760",
             "type": "image/png"
         }
     ],
