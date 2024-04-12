@@ -21,12 +21,9 @@ banner: "banner2.jpg"
 </head>
   <body>
   <script>
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-          '/sw.js',
-          {scope: '/'}
-        )
-      }
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
   </script>
 </body>
 </html>
