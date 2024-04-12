@@ -14,7 +14,7 @@
         },
         {
             "src": "logo_backup.png",
-            "sizes" "380x380",
+            "sizes": "380x380",
             "type": "image/png"
         }
     ],
