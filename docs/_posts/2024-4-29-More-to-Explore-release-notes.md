@@ -4,7 +4,7 @@ title: More to Explore, Update 1.6 release notes
 subtitle: Release Notes
 author: melonmasteristaken
 categories: MtE
-banner: "MtEV1.5Banner.png"
+banner: "MtEV1.6Banner.png"
 tags: MtE
 top: 1
 sidebar: []
