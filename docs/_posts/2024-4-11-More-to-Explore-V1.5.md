@@ -6,7 +6,6 @@ author: melonmasteristaken
 categories: MtE
 banner: "MtEV1.5Banner.png"
 tags: MtE
-sidebar: []
 ---
 
 <hr>
