@@ -3,9 +3,9 @@ layout: post
 title: Scripta Mirabilia
 subtitle: Our new site project!
 author: melonmasteristaken/Dev10us
-categories: Scripta-Mirabilia
+categories: ScriptaMirabilia
 banner: "SMBanner.jpeg"
-tags: Scripta-Mirabilia Announcement
+tags: ScriptaMirabilia Announcement
 ---
 
 # Scripta-Mirabilia
