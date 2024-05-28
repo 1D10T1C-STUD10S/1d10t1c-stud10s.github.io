@@ -6,9 +6,9 @@
 */
 
 /* defaults */
-html { 
+/*html { 
   overflow-y: auto;
-}
+}*/
 
 body {
   position: static;
@@ -16,7 +16,7 @@ body {
   width: 100%;
   padding: 0px;
   height: auto;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   margin: 0;
   padding: 0;
 }
