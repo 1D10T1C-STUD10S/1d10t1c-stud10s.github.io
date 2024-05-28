@@ -41,6 +41,7 @@ h4 {
 .nav ul {
   list-style: none;
   margin: 0;
+  margin-top: 0;
   padding: 0;
 }
 
@@ -50,17 +51,38 @@ h4 {
 }
 
 /* for styled div text */
-.lightblue {
+div.lightblue {
   background-color: #3f77d1;
   color: #dedede !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-.darkblue {
+div.darkblue {
   background-color: #16257a;
   color: #dedede !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-.darkneutral {
+div.darkneutral {
   background-color: #404040;
   color: #dedede !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
