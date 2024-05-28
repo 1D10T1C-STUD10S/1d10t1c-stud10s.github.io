@@ -77,6 +77,10 @@ div.lightblue {
   margin: 0;
 }
 
+div.lightblue * {
+  padding: 7px;
+}
+
 div.darkblue {
   background-color: #16257a;
   color: #dedede !important;
@@ -88,6 +92,10 @@ div.darkblue {
   margin: 0;
 }
 
+div.darkblue * {
+  padding: 7px;
+}
+
 div.darkneutral {
   background-color: #404040;
   color: #dedede !important;
@@ -97,4 +105,8 @@ div.darkneutral {
   height: auto;
   padding: 0;
   margin: 0;
+}
+
+div.darkneutral * {
+  padding: 7px;
 }
