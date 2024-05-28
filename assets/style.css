@@ -1,0 +1,46 @@
+/* defaults */
+p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #dedede
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff
+}
+
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff
+}
+
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff
+}
+
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding: 5px;
+}
+
+/* for styled div text */
+.lightblue {
+  background-color: #3f77d1;
+  color: #dedede !important;
+}
+
+.darkblue {
+  background-color: #16257a;
+  color: #dedede !important;
+}
+
+.darkneutral {
+  background-color: #404040;
+  color: #dedede !important;
+}
