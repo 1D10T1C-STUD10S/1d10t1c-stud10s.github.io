@@ -1,12 +1,13 @@
 /* defaults */
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #dedede
+  color: #dedede;
 }
 
 a {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #dedede
+  color: #dedede;
+  text-decoration: none;
 }
 
 h1 {
@@ -29,7 +30,7 @@ h4 {
   color: #ffffff
 }
 
-nav {
+.nav ul {
   background-color: #1a1a1a;
   padding: 0px;
   display: flex;
