@@ -74,7 +74,7 @@ h4 {
 div.lightblue {
   background-color: #3f77d1;
   color: #dedede !important;
-  position: absolute;
+  position: static;
   left: 0;
   width: 100%;
   height: auto;
@@ -89,7 +89,7 @@ div.lightblue * {
 div.darkblue {
   background-color: #16257a;
   color: #dedede !important;
-  position: absolute;
+  position: static;
   left: 0;
   width: 100%;
   height: auto;
@@ -104,7 +104,7 @@ div.darkblue * {
 div.darkneutral {
   background-color: #404040;
   color: #dedede !important;
-  position: absolute;
+  position: static;
   left: 0;
   width: 100%;
   height: auto;
