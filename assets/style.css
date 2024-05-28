@@ -1,4 +1,8 @@
 /* defaults */
+html {
+  overflow-y: hidden;
+}
+
 body {
   position: static;
   background-color: #000000;
