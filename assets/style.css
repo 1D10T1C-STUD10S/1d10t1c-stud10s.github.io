@@ -35,7 +35,7 @@ h4 {
   color: #ffffff
 }
 
-.nav {
+nav {
   position: sticky;
   width: 100%;
   top: 0;
@@ -47,14 +47,14 @@ h4 {
   justify-content: space-between;
 }
 
-.nav ul {
+nav ul {
   list-style: none;
   margin: 0;
   margin-top: 0;
   padding: 0;
 }
 
-.nav li {
+nav li {
   display: inline-block;
   margin-right: 20px;
 }
