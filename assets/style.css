@@ -139,7 +139,12 @@ div.darkneutral * {
 
 /* common classes */
 
-.textcentre {
+.centretxt {
   text-align: centre;
   align: centre;
+}
+
+.centreimg {
+  display: block;
+  margin: 0 auto;
 }
