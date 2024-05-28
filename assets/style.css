@@ -30,12 +30,23 @@ h4 {
   color: #ffffff
 }
 
-.nav ul {
+.nav {
   background-color: #1a1a1a;
   padding: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 /* for styled div text */
