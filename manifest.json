@@ -1,0 +1,28 @@
+{
+  "background_color": "#486790",
+  "description": "1D10T1C STUD10S - Fun redefined.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "1D10T1C STUD10S",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "1D10T1C STUD10S",
+  "start_url": "/",
+  "theme_color": "#1d425e",
+  "icons": [
+    {
+      "src": "https://1d10t1c-stud10s.github.io/assets/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "id": "1dst",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "fullscreen",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "lang": "en"
+}
