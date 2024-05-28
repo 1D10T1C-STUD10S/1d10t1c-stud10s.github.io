@@ -1,7 +1,12 @@
 /* defaults */
+body {
+  background-color: #3d3d3d;
+}
+
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #dedede;
+  padding: none;
 }
 
 a {
@@ -31,6 +36,8 @@ h4 {
 }
 
 .nav {
+  width: 100%;
+  top: 0;
   background-color: #1a1a1a;
   padding: 0px;
   display: flex;
@@ -55,7 +62,6 @@ div.lightblue {
   background-color: #3f77d1;
   color: #dedede !important;
   position: absolute;
-  top: auto;
   left: 0;
   width: 100%;
   height: auto;
@@ -67,7 +73,6 @@ div.darkblue {
   background-color: #16257a;
   color: #dedede !important;
   position: absolute;
-  top: auto;
   left: 0;
   width: 100%;
   height: auto;
@@ -79,7 +84,6 @@ div.darkneutral {
   background-color: #404040;
   color: #dedede !important;
   position: absolute;
-  top: auto;
   left: 0;
   width: 100%;
   height: auto;
