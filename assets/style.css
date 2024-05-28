@@ -5,7 +5,7 @@
 
 /* defaults */
 html { 
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   width: 100%;
   padding: 0px;
   height: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 footer {
@@ -87,10 +87,6 @@ h4 {
 }
 
 /* for styled div text */
-.navbg {
-  background-color: #1a1a1a;
-  position: sticky;
-}
 
 div.lightblue {
   background-color: #3f77d1;
