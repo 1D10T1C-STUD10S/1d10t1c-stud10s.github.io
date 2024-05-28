@@ -147,6 +147,15 @@ div.darkneutral * {
 }
 
 /* common classes */
+.pixellight {
+  font-family: "Pixel Sans" !important;
+  color: #000000;
+}
+
+.pixeldark {
+  font-family: "Pixel Sans" !important;
+  color: #ffffff;
+}
 
 .centretxt {
   text-align: centre;
