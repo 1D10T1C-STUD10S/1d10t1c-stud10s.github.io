@@ -55,7 +55,7 @@ div.lightblue {
   background-color: #3f77d1;
   color: #dedede !important;
   position: absolute;
-  top: 0;
+  top: auto;
   left: 0;
   width: 100%;
   height: auto;
@@ -67,7 +67,7 @@ div.darkblue {
   background-color: #16257a;
   color: #dedede !important;
   position: absolute;
-  top: 0;
+  top: auto;
   left: 0;
   width: 100%;
   height: auto;
@@ -79,7 +79,7 @@ div.darkneutral {
   background-color: #404040;
   color: #dedede !important;
   position: absolute;
-  top: 0;
+  top: auto;
   left: 0;
   width: 100%;
   height: auto;
