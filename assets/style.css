@@ -4,6 +4,11 @@ p {
   color: #dedede
 }
 
+a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #dedede
+}
+
 h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ffffff
@@ -26,7 +31,10 @@ h4 {
 
 nav {
   background-color: #1a1a1a;
-  padding: 5px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* for styled div text */
