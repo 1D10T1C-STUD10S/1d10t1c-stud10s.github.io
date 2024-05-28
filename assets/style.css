@@ -1,3 +1,31 @@
+/* @media */
+@media(max-width: 480px) {
+  .banner {
+    height: auto;
+    width: 200vw;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 768px) and (min-width: 481px) {
+  .banner {
+    height: auto;
+    width: 320vw;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media(min-width: 1025px) {
+  .banner {
+    height: auto;
+    width: 380vw;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 /* testing */
 /*
 * {
@@ -147,6 +175,7 @@ div.darkneutral * {
 }
 
 /* common classes */
+
 .pixellight {
   font-family: "Pixelify Sans" !important;
   color: #000000;
