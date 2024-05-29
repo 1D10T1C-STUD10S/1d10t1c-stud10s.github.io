@@ -27,16 +27,16 @@
 }
 
 /* testing */
-/*
+
 * {
   outline: 1px solid red;
 }
-*/
+
 
 /* defaults */
-/*html { 
+html { 
   overflow-y: auto;
-}*/
+}
 
 body {
   position: static;
