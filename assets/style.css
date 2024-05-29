@@ -86,8 +86,8 @@ span {
 hr {
   border: none;
   border-bottom: 5px dotted #f7f7f7; /* very light gray color */
-  width: 100%;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 h1 {
