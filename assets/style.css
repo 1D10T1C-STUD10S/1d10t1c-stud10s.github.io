@@ -77,6 +77,12 @@ li {
   align-content: centre;
 }
 
+span {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #dedede;
+  padding: 0px;
+}
+
 hr {
   border: none;
   border-bottom: 5px dotted #f7f7f7; /* very light gray color */
