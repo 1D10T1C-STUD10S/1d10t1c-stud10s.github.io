@@ -5,9 +5,37 @@ description: 1DST - about
 permalink: /about/
 ---
 
+<style>
+.container {
+  display: flex;
+  flex-direction: row;
+}
+  
+.list {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.image {
+  width: 50%;
+  height: 0;
+  padding-bottom: 50%; /* Make the image square */
+  position: relative;
+}
+
+.image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
+
 <div class="darkneutral">
   <div class=centretext">
-  <h1 class="pixeldark"><i>"It all started with-"</i></h1>
+    <h1 class="pixeldark"><i>"It all started with-"</i></h1>
   </div>
   <br>
   <p class="pixeldark">Oh what am I saying...</p>
@@ -18,18 +46,46 @@ permalink: /about/
   <h2>Meet the Team!</h2>
   <br>
   <h4>ProfessionalsHaveStandards</h4>
-  <ul class="righttext">
-    <li>Founder</li>
-    <li>Event-Manager</li>
-    <li>Community-Manager</li>
-  </ul>
-  <br>
+  <div class="container">
+    <div class="list">
+      <ul>
+        <li>Co-Founder</li>
+        <li>Event-Manager</li>
+        <li>Community-Manager</li>
+        <li>Game-Dev</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="image.jpg" alt="Square Image">
+    </div>
+  </div>
   <h4>Dev10us</h4>
-  <ul class="righttext">
-    <li>Founder</li>
-    <li>Lead/Web-Dev</li>
-    <li>Wiki Writer</li>
-  </ul>
+  <div class="container">
+    <div class="list">
+      <ul>
+        <li>Founder</li>
+        <li>Lead/Web-Dev</li>
+        <li>Wiki Writer</li>
+        <li>Github Admin</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="image.jpg" alt="Square Image">
+    </div>
+  </div>
+  <h4>Flamecor3</h4>
+  <div class="container">
+    <div class="list">
+      <ul>
+        <li>Administrator</li>
+        <li>Wiki Writer</li>
+        <li>Github Admin</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="image.jpg" alt="Square Image">
+    </div>
+  </div>
   <br>
   <br>
 </div>
