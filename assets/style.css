@@ -119,10 +119,9 @@ h4 {
 .nav {
   z-index: inherit;
   position: static;
-  width: 100%;
   max-width: 100%;
   height: 90px;
-  margin: 0;
+  margin: 0 auto;
   top: 0; /* or top: 0vh */
   left: 0;
   background-color: #fefefe;
