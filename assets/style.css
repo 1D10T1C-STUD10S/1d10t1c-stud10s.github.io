@@ -81,6 +81,7 @@ hr {
   border: none;
   border-bottom: 5px dotted #f7f7f7; /* very light gray color */
   width: 100%;
+  overflow-y: hidden;
 }
 
 h1 {
