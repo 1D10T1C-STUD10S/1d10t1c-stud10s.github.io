@@ -5,6 +5,51 @@ description: 1DST - Projects Page
 permalink: /projects/
 ---
 
+<style>
+.project-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.project-entry {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.project-entry img {
+width: 200px;
+height: 100px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.project-entry h2 {
+font-size: 18px;
+margin-top: 10px;
+}
+
+.project-entry p {
+font-size: 14px;
+color: #666;
+margin-bottom: 20px;
+}
+</style>
+
 <h1 class="centretext">Coming Soon!</h1>
 <br>
 <hr>
+<div class="project-grid">
+  <div class="project-entry">
+    <img src="banner-image-1.jpg" alt="Project 1 Banner">
+    <h2>Project 1 Title</h2>
+    <p>Short description of Project 1</p>
+  </div>
+  <div class="project-entry">
+    <img src="banner-image-2.jpg" alt="Project 2 Banner">
+    <h2>Project 2 Title</h2>
+    <p>Short description of Project 2</p>
+  </div>
+  <!-- Repeat for each project -->
+</div>
