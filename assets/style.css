@@ -70,6 +70,14 @@ li {
   color: #dedede;
 }
 
+li.rightlist {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: centre;
+}
+
 h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ffffff;
