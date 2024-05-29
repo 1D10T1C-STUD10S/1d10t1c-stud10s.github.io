@@ -1,7 +1,7 @@
 /* @media */
 @media(max-width: 480px) {
   .banner {
-    height: 200vw;
+    height: 100vw;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -10,7 +10,7 @@
 
 @media(max-width: 768px) and (min-width: 481px) {
   .banner {
-    height: 320vw;
+    height: 220vw;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 
 @media(min-width: 1025px) {
   .banner {
-    height: 380vw;
+    height: 280vw;
     width: auto;
     display: block;
     margin: 0 auto;
