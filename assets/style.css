@@ -70,7 +70,7 @@ li {
   color: #dedede;
 }
 
-li.rightlist {
+.rightlist {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
