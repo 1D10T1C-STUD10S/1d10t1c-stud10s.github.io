@@ -71,7 +71,6 @@ li {
 }
 
 .rightlist {
-  display: flex;
   justify-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
@@ -80,11 +79,8 @@ li {
 
 hr {
   border: none;
-  height: 5px;
-  background-color: #f7f7f7; /* very light gray color */
-  background-image: repeating-linear-gradient(to right, #f7f7f7 0%, #f7f7f7 20%, transparent 20%, transparent 100%);
-  background-size: 10px 5px;
-  background-position: 0% 50%;
+  border-bottom: 5px dotted #f7f7f7; /* very light gray color */
+  width: 100%;
 }
 
 h1 {
