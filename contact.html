@@ -26,6 +26,38 @@ description: 1DST - Contact
   <h2 class="pixeldark">Contact Form</h2>
 </div>
 
+<style>
+  
+  label {
+    font-family: "Pixelify Sans", monospace;
+    color: #ffffff;
+  }
+  
+  textarea {
+    font-family: "Helvetica Neue", Helvetica, sans serif;
+  }
+
+  input {
+    font-family: "Helvetica Neue", Helvetica, sans serif;
+  }
+
+  .submit-button {
+  /* Add some basic styling */
+  background-color: #4CAF50; /* Green */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add a slight curve */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+.submit-button:hover {
+  /* Add a hover effect */
+  background-color: #3e8e41; /* Darker green */
+}
+  
+</style>
+
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdoqvryw" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
@@ -34,7 +66,7 @@ description: 1DST - Contact
     <br>
     <label for="email-address">Email Address</label>
     <br>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <input type="email" name="_replyto" id="email-address" placeholder="your email" required="">
     <br>
     <label for="message">Message</label>
     <br>
@@ -42,5 +74,8 @@ description: 1DST - Contact
     <br>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" class="submit-button">
 </form>
+
+<br>
+<br>
