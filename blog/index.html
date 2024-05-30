@@ -75,7 +75,7 @@ margin: 0 auto;
         <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" class="centreimg">
         <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
         <div class="post-excerpt">
-          {{ post.excerpt }}
+          <small>{{ post.excerpt }}</small>
         </div>
       </div>
     {% endfor %}
