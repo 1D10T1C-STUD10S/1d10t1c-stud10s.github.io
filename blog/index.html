@@ -53,7 +53,7 @@ permalink: /blog/
     {% for post in site.posts %}
       <div class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" class="centreimg">
+        <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" class="centreimg" style="max-height= 20%; width= auto;">
         <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
         <div class="post-excerpt">
           {{ post.excerpt }}
