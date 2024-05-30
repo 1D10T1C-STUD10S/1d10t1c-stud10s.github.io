@@ -1,0 +1,114 @@
+---
+layout: default
+title: About
+description: 1DST - About
+permalink: /about/
+---
+
+<style>
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.square-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+.darkneutral {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.centretext {
+  text-align: center;
+}
+
+.pixeldark {
+  color: #333;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
+</style>
+
+<div class="darkneutral">
+  <div class="centretext">
+    <h1 class="pixeldark"><i>"It all started with-"</i></h1>
+  </div>
+  <br>
+  <p class="pixeldark">Oh, what am I saying...</p>
+  <h4>We came together and started a studio that makes interesting projects, from games to websites to gun (pew pew!) simulators.</h4>
+  <br>
+  <hr>
+  <br>
+  <h2>Meet the Team!</h2>
+  <br>
+  
+  <h4 class="pixeldark">ProfessionalsHaveStandards/Bloxinoobie</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/pfp/Bloxinoobie.jpg" alt="Bloxinoobie Image" class="square-image">
+    <div>
+      <span>- Co-Founder</span><br>
+      <span>- Event Manager</span><br>
+      <span>- Game Dev</span>
+    </div>
+  </div>
+  
+  <h4 class="pixeldark">Dev10us/melonmasteristaken</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/pfp/Dev10us.PNG" alt="Dev10us Image" class="square-image">
+    <div>
+      <span>- Founder</span><br>
+      <span>- Branding and Design</span><br>
+      <span>- Lead/Web Dev</span><br>
+      <span>- Wiki Writer</span>
+    </div>
+  </div>
+  
+  <h4 class="pixeldark">Flamecor</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/pfp/Flamecor.jpg" alt="Flamecor Image" class="square-image">
+    <div>
+      <span>- Admin</span><br>
+      <span>- Wiki Writer</span><br>
+      <span>- MtE Builds Manager</span>
+    </div>
+  </div>
+  
+  <h4 class="pixeldark">NoobLord</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/pfp/NoobLord.jpg" alt="NoobLord Image" class="square-image">
+    <div>
+      <span>- Giveaway Sponsor</span><br>
+      <span>- Moderator</span><br>
+      <span>- Alpha Tester</span>
+    </div>
+  </div>
+  
+  <h4 class="pixeldark">VinyCarrot</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/blank-image.png" alt="VinyCarrot Image" class="square-image">
+    <div>
+      <span>- Design Specialist</span><br>
+      <span>- MtE Builds Helper</span>
+    </div>
+  </div>
+  
+  <h4 class="pixeldark">TheRatKing/SuperSpoodle</h4>
+  <div class="image-text-container">
+    <img src="https://1d10t1c-stud10s.github.io/assets/img/pfp/TheRatKing.jpg" alt="TheRatKing Image" class="square-image">
+    <div>
+      <span>- Moderator</span><br>
+      <span>- MtE Builds Helper</span><br>
+      <span>- Alpha Tester</span>
+    </div>
+  </div>
+  <hr>
+</div>
