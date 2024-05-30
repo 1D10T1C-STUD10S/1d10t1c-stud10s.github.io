@@ -3,7 +3,10 @@ layout: default
 ---
 
 <div class="post" style="color: #ffffff;">
-  <div class="post-info" style="text-align: centre !important; margin: 0 auto;">
+
+  <h1 class="pixeldark" style="text-align: centre !important; padding: 10px;">{{ page.title }}</h1>
+  <br>
+  <div class="post-info" style="text-align: centre !important; margin: 0 auto; font-family: 'Pixelify Sans';">
     <span>Written by</span>
     {% if page.author %}
         {{ page.author }}
@@ -16,8 +19,6 @@ layout: default
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
-
-  <h1 class="pixeldark" style="text-align: centre !important; padding: 10px;">{{ page.title }}</h1>
   <hr>
 
   {{ content }}
