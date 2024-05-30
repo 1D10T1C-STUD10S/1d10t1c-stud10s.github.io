@@ -223,3 +223,10 @@ div.darkneutral * {
   max-height: 10%;
   width: auto;
 }
+
+.h0 {
+  font-weight: 700; /* Heavy font */
+  text-align: center; /* Center the text */
+  font-size: 3em; /* Larger font size */
+  margin: 20px 0; /* Optional: Add some margin for spacing */
+}
