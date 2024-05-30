@@ -43,9 +43,12 @@ permalink: /blog/
 }
 </style>
 
-<div class="home">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+<div class="darkblue">
+  <br>
+  <h1 class="pixeldark">Blog</h1>
+  <hr>
+  <p>This is where we notify you of news and changes, or join our Discord for more!</p>
+</div>
 
   <div class="posts">
     {% for post in site.posts %}
@@ -58,4 +61,35 @@ permalink: /blog/
       </div>
     {% endfor %}
   </div>
-</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the post excerpt element
+        var excerptElement = document.querySelector('.post-excerpt');
+
+        if (excerptElement) {
+            // Get the inner HTML of the excerpt
+            var innerHTML = excerptElement.innerHTML.trim();
+
+            // Create a temporary container to parse the inner HTML
+            var tempContainer = document.createElement('div');
+            tempContainer.innerHTML = innerHTML;
+
+            // Get the first child element
+            var firstChild = tempContainer.firstElementChild;
+
+            // Check if the first child is not a <p> tag
+            if (firstChild && firstChild.tagName.toLowerCase() !== 'p') {
+                // Create a new <p> element and set its content
+                var pTag = document.createElement('p');
+                pTag.innerHTML = firstChild.innerHTML;
+
+                // Replace the first child with the new <p> tag
+                tempContainer.replaceChild(pTag, firstChild);
+
+                // Update the excerpt element's HTML
+                excerptElement.innerHTML = tempContainer.innerHTML;
+            }
+        }
+    });
+</script>
