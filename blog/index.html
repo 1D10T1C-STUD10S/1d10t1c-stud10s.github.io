@@ -5,14 +5,26 @@ description: 1DST - Blog
 permalink: /blog/
 ---
 
+<style>
+  .excerpt {
+    font-size: 16px !important;
+    text-align: centre !important;
+  }
+
+  .pbanner {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
 <h1>Posts</h1>
 
 {% for post in site.posts %}
   <div class="card">
      <hr>
      <h2>{{ post.title }}</h2>
-     <img src="{{ post.image }}" alt="Post thumbnail">
-     <p>{{ post.excerpt }}</p>
-     <p><a href="{{ post.url }}">Read more</a></p>
+     <img src="{{ post.image | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png }}" alt="Post thumbnail">
+     <p class="excerpt">{{ post.excerpt }}</p>
+     <small><p><a href="{{ post.url }}">Read more</a></p></small>
   </div>
 {% endfor %}
