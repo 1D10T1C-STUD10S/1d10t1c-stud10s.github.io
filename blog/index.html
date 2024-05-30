@@ -6,25 +6,56 @@ permalink: /blog/
 ---
 
 <style>
-  .excerpt {
-    font-size: 16px !important;
-    text-align: centre !important;
-  }
+.home {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
 
-  .pbanner {
-    display: block;
-    margin: 0 auto;
-  }
+.posts {
+  margin-top: 40px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+}
+
+.post a {
+  color: #333;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.post-excerpt {
+  margin-top: 10px;
+}
 </style>
 
-<h1>Posts</h1>
+<div class="home">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
 
-{% for post in site.posts %}
-  <div class="card">
-     <hr>
-     <h2>{{ post.title }}</h2>
-     <img src="{{ post.image | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png }}" alt="Post thumbnail" class="pbanner">
-     <p class="excerpt">{{ post.excerpt }}</p>
-     <small><p><a href="{{ post.url }}">Read more</a></p></small>
+  <div class="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+      </div>
+    {% endfor %}
   </div>
-{% endfor %}
+</div>
