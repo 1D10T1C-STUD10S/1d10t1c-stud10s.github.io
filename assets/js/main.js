@@ -1,1 +1,1 @@
-import * from './blog.js';
+import './blog.js';
