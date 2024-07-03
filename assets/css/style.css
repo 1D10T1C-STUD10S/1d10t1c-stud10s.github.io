@@ -156,12 +156,12 @@ h4 {
   top: 20px;
   display: inline-block;
   margin-right: 20px;
-  color: #24c932;
+  color: #24c932 !important;
   transition-duration: 0.4s;
 }
 
 .nav li:hover {
-  color: #24c932;
+  color: #24c932 !important;
 }
 
 /* for styled div text */
