@@ -153,9 +153,15 @@ h4 {
 .nav li {
   font-size: 22px;
   position: relative;
-  top: 24px;
+  top: 20px;
   display: inline-block;
   margin-right: 20px;
+  color: #24c932;
+  transition-duration: 0.4s;
+}
+
+.nav li:hover {
+  color: #24c932;
 }
 
 /* for styled div text */
@@ -230,7 +236,7 @@ div.darkneutral * {
 }
 
 .h0 {
-  font-weight: 700; /* Heavy font */
+  font-weight: 900; /* Heavy font */
   text-align: center; /* Center the text */
   font-size: 3em; /* Larger font size */
   margin: 20px 0; /* Optional: Add some margin for spacing */
