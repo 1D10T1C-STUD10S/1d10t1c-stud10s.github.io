@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
 /* @media */
 @media(max-width: 480px) {
   .banner {
@@ -56,19 +58,19 @@ footer {
 }
 
 p {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #dedede;
   padding: 0px;
 }
 
 a {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #2fc271;
   text-decoration: none;
 }
 
 li {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #dedede;
 }
 
@@ -80,7 +82,7 @@ li {
 }
 
 span {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #dedede;
   padding: 0px;
 }
@@ -93,22 +95,22 @@ hr {
 }
 
 h1 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #ffffff;
 }
 
 h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #ffffff;
 }
 
 h3 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #ffffff;
 }
 
 h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #ffffff;
 }
 
