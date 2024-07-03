@@ -8,51 +8,84 @@ layout: default
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to Our Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
   <style>
+    /* Your imported CSS styles */
+    @media(max-width: 480px) {
+      .banner {
+        height: 55vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    @media(max-width: 768px) and (min-width: 481px) {
+      .banner {
+        height: 45vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    @media(min-width: 1025px) {
+      .banner {
+        height: 40vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    /* Your default and custom styles */
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: "Montserrat", Arial, sans-serif;
+      background-color: #000000;
       margin: 0;
       padding: 0;
     }
+
     .hero {
       background-color: #1a1a1a;
       color: #ffffff;
       text-align: center;
       padding: 100px 0;
     }
+
     .hero h1 {
       font-size: 3em;
+      font-weight: 900;
+      margin: 20px 0;
     }
+
     .hero h2 {
       font-size: 1.5em;
       margin-bottom: 20px;
     }
+
     .banner {
       width: 100%;
       height: auto;
     }
+
     .content {
       padding: 50px;
+      color: #ffffff;
     }
-    .content p {
+
+    .content h3, .content h4 {
       font-size: 1.2em;
-      line-height: 1.8;
-    }
-    .content h3 {
-      font-size: 1.5em;
       margin-bottom: 10px;
     }
-    .content h4 {
-      font-size: 1.2em;
-      margin-bottom: 5px;
-    }
+
     .footer {
       background-color: #1a1a1a;
       color: #ffffff;
       text-align: center;
       padding: 20px 0;
     }
+
     .footer a {
       color: #ffffff;
       text-decoration: none;
@@ -87,3 +120,4 @@ layout: default
 
 </body>
 </html>
+
