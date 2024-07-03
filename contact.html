@@ -27,105 +27,91 @@ description: 1DST - Contact
 </div>
 
 <style>
-body {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  background-color: #000000;
-  color: #dedede;
-}
-
-.darkblue {
-  background-color: #16257a;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.darkneutral {
-  background-color: #000000;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.centretxt {
-  text-align: center;
-}
-
-hr {
-  border: none;
-  border-bottom: 5px dotted #f7f7f7;
-  max-width: 100%;
-  overflow: hidden;
-  margin: 20px 0;
-}
-
-h1, h2, h4 {
-  color: #ffffff;
-}
-
-a {
-  color: #2fc271;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-form {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-  background-color: #2f3640;
-  border-radius: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-family: "Pixelify Sans", monospace;
-  color: #ffffff;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.submit-button {
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.submit-button:hover {
-  background-color: #3e8e41;
-}
+  body {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #dedede;
+  }
+  .darkblue {
+    background-color: #16257a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .darkneutral {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .centretxt {
+    text-align: center;
+  }
+  hr {
+    border: none;
+    border-bottom: 5px dotted #f7f7f7;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  h1, h2, h4 {
+    color: #ffffff;
+  }
+  a {
+    color: #2fc271;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #2f3640;
+    border-radius: 10px;
+    border: none; /* added to remove the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added to give a subtle shadow */
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Pixelify Sans", monospace;
+    color: #ffffff;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .submit-button {
+    background-color: #16257a; /* changed to dimmed blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Montserrat"; /* added to use Montserrat font */
+    font-weight: 900; /* added to use heavy font */
+  }
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
 </style>
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdoqvryw" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="(link unavailable)" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required>
-    
     <label for="email-address">Email Address</label>
     <input type="email" name="_replyto" id="email-address" placeholder="your.email@example.com" required>
-    
     <label for="message">Message</label>
     <textarea rows="5" name="message" id="message" placeholder="Your message here..." required></textarea>
-    
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit" class="submit-button">
 </form>
-
-<br>
-<br>
