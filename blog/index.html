@@ -6,42 +6,60 @@ permalink: /blog/
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
+html {
+    overflow-x: auto;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.header h1 {
-    font-size: 3em;
-    color: #333;
+    position: static;
+    background-color: #000000;
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
     margin: 0;
 }
 
-.header p {
-    font-size: 1.2em;
-    color: #666;
+a {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #2fc271;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, p, li, span {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 5px dotted #f7f7f7;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
 }
 
 .posts {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .post {
-    background-color: #fff;
+    background-color: #2f3640;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -55,53 +73,76 @@ body {
 
 .post h2 {
     font-size: 1.5em;
-    color: #333;
     margin-bottom: 10px;
-}
-
-.post a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .post img {
     width: 100%;
-    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .post-date {
     font-size: 0.9em;
-    color: #999;
+    color: #666666;
     margin-bottom: 15px;
 }
 
-.post-excerpt {
+.post-excerpt p {
     font-size: 1em;
-    color: #666;
+    color: #ffffff;
     line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 55vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .banner {
+        height: 45vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    .banner {
+        height: 40vw;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
 }
 </style>
 
-<div class="container">
-    <div class="header">
-        <h1>Blog</h1>
-        <p>This is where we notify you of news and changes, or join our Discord for more!</p>
-    </div>
+<div class="darkblue">
+    <br>
+    <h1 class="pixeldark h0">Blog</h1>
+    <hr>
+    <br>
+    <p>This is where we notify you of news and changes, or join our Discord for more!</p>
+    <br>
+</div>
 
-    <div class="posts">
-        {% for post in site.posts %}
-            <div class="post">
-                <a href="{{ post.url }}">
-                    <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" alt="{{ post.title }}">
-                    <h2>{{ post.title }}</h2>
-                </a>
-                <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-                <div class="post-excerpt">
-                    <p>{{ post.excerpt }}</p>
-                </div>
+<div class="posts">
+    {% for post in site.posts %}
+        <div class="post">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" alt="{{ post.title }}">
+            <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+            <div class="post-excerpt">
+                <p>{{ post.excerpt }}</p>
             </div>
-        {% endfor %}
-    </div>
+        </div>
+    {% endfor %}
 </div>
