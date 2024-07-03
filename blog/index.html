@@ -26,6 +26,53 @@ body {
     padding-right: 20px;
 }
 
+.navwrapper {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav {
+    z-index: inherit;
+    position: static;
+    max-width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #fefefe;
+    color: #1a1a1a;
+    padding: 0; /* Ensure no padding is applied */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    font-family: "Rubik Mono One", monospace;
+    color: #1a1a1a !important;
+}
+
+.nav ul {
+    bottom: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    font-size: 1.1em;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    color: #24c932 !important;
+    transition-duration: 0.4s;
+}
+
+.nav li:hover {
+    color: #24c932 !important;
+}
+
 a {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     color: #2fc271;
