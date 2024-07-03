@@ -6,81 +6,102 @@ permalink: /blog/
 ---
 
 <style>
-.home {
-max-width: 800px;
-margin: auto;
-padding: 20px;
-background-color: #1d1f21;
-border: 1px solid #2f3640;
-border-radius: 10px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #333;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #666;
 }
 
 .posts {
-margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .post {
-margin-bottom: 40px;
-background-color: #2f3640;
-padding: 20px;
-border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .post h2 {
-margin-bottom: 10px;
-color: #ffffff;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .post a {
-text-decoration: none;
-font-family: "Pixelify Sans";
-}
-
-.post a:hover {
-text-decoration: underline;
-}
-
-.post-date {
-color: #666666;
-font-size: 0.9em;
-}
-
-.post-excerpt {
-margin-top: 16px;
-color: #ffffff;
-}
-
-.post-excerpt p {
-font-size: 16px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .post img {
-width: 100%;
-max-height: 280px;
-object-fit: cover;
-display: block;
-margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.post-excerpt {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
 }
 </style>
 
-<div class="darkblue">
-  <br>
-  <h1 class="pixeldark h0">Blog</h1>
-  <hr>
-  <br>
-  <p>This is where we notify you of news and changes, or join our Discord for more!</p>
-  <br>
-</div>
+<div class="container">
+    <div class="header">
+        <h1>Blog</h1>
+        <p>This is where we notify you of news and changes, or join our Discord for more!</p>
+    </div>
 
-  <div class="posts">
-    {% for post in site.posts %}
-      <div class="post">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" class="centreimg">
-        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-        <div class="post-excerpt">
-          <small>{{ post.excerpt }}</small>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+    <div class="posts">
+        {% for post in site.posts %}
+            <div class="post">
+                <a href="{{ post.url }}">
+                    <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" alt="{{ post.title }}">
+                    <h2>{{ post.title }}</h2>
+                </a>
+                <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                <div class="post-excerpt">
+                    <p>{{ post.excerpt }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
