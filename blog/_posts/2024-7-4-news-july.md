@@ -4,8 +4,6 @@ title: News - July 2024
 author: Dev10us
 ---
 
-# News - July 2024
-
 We bring news this July with updates and new games coming your way!
 Read on for more...
 
