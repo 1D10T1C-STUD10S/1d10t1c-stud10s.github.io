@@ -2,6 +2,7 @@
 layout: post
 title: News - July 2024
 author: Dev10us
+banner: "https://1d10t1c-stud10s.github.io/assets/img/news-banner.png"
 ---
 
 We bring news this July with updates and new games coming your way!
