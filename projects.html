@@ -61,7 +61,35 @@ height: 100px;
 <p>Keep in mind that not all of them are finished!</p>
 <br>
 <hr>
-<div class="project-grid">
+
+<!-- Search Bar -->
+<input type="search" id="search-input" placeholder="Search Projects" style="width: 80% !important; height: 50px !important;">
+
+<!-- Important Part -->
+<div class="entries-container project-grid"></div>
+
+<script>
+var frontsearchShowAll = false
+
+function getEntryHTML(entry) {
+    return `
+  <div class="project-entry">
+    <img src="${entry.image}" alt="Banner">
+    <h2><a href="${entry.link}">${entry.name}</a></h2>
+    <p>${entry.description}</p>
+  </div>
+    `;
+};
+
+const jsonUrls = [
+  'https://1d10t1c-stud10s.github.io/search.json'
+  // Add more URLs as needed
+];
+</script>
+
+<script src="https://frontsearch.js.org/src/script.@1.1.js"></script>
+
+<!--<div class="project-grid">
   <div class="project-entry">
     <img src="https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png" alt="Banner">
     <h2><a href="https://botanybase.github.io">BotanyBase</a></h2>
@@ -102,5 +130,5 @@ height: 100px;
     <h2><a href="https://scratch.mit.edu/projects/783076792/">Agent Zero</a></h2>
     <p>'Stay focused, Agent!</p>
   </div>
-  <!-- Repeat for each project -->
-</div>
+  <!-- Repeat for each project --
+</div>-->
