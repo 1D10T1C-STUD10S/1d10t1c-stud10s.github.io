@@ -56,7 +56,7 @@ hr {
 .posts {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
     gap: 20px;
 }
 
@@ -66,7 +66,6 @@ hr {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 300px; /* Fixed width for responsive design */
     height: 400px; /* Fixed height for responsive design */
     overflow: hidden;
     display: flex;
@@ -111,6 +110,10 @@ hr {
         display: block;
         margin: 0 auto;
     }
+
+    .posts {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 768px) and (min-width: 481px) {
@@ -119,6 +122,10 @@ hr {
         width: auto;
         display: block;
         margin: 0 auto;
+    }
+
+    .posts {
+        grid-template-columns: 1fr;
     }
 }
 
