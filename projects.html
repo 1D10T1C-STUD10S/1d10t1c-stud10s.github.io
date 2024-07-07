@@ -63,7 +63,7 @@ height: 100px;
 <hr>
 
 <!-- Search Bar -->
-<input type="search" id="search-input" placeholder="Search Projects" style="width: 80% !important; height: 50px !important;">
+<input type="search" id="search-input" placeholder="Search Projects" style="width: 80% !important; height: 50px !important; display: block; margin: 0 auto; padding: 16px;">
 
 <!-- Important Part -->
 <div class="entries-container project-grid"></div>
@@ -75,7 +75,7 @@ function getEntryHTML(entry) {
     return `
   <div class="project-entry">
     <img src="${entry.image}" alt="Banner">
-    <h2><a href="${entry.link}">${entry.name}</a></h2>
+    <h2><a href="${entry.link}">${entry.title}</a></h2>
     <p>${entry.description}</p>
   </div>
     `;
