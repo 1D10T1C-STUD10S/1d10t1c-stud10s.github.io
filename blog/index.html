@@ -30,14 +30,6 @@ body {
     padding: 0; /* Ensure no padding is applied */
 }
 
-.nav ul {
-    bottom: 0;
-    right: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 a {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     color: #2fc271;
@@ -74,6 +66,12 @@ hr {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px; /* Fixed width for responsive design */
+    height: 400px; /* Fixed height for responsive design */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .post:hover {
@@ -88,17 +86,16 @@ hr {
 
 .post img {
     width: 100%;
-    max-height: 280px;
+    height: 150px;
     object-fit: cover;
-    display: block;
-    margin: 0 auto 15px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .post-date {
     font-size: 0.9em;
     color: #666666;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .post-excerpt p {
@@ -146,7 +143,7 @@ hr {
 
 <div class="container">
     <div class="posts">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
             <div class="post">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <img src="{{ post.banner | default: 'https://1d10t1c-stud10s.github.io/assets/img/blank-banner.png' }}" alt="{{ post.title }}">
@@ -157,4 +154,20 @@ hr {
             </div>
         {% endfor %}
     </div>
+</div>
+
+<div class="pagination">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+            <span class="current">{{ page }}</span>
+        {% else %}
+            <a href="{{ paginator.page_path }}" class="page">{{ page }}</a>
+        {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% endif %}
 </div>
