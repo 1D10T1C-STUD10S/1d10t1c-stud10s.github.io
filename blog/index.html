@@ -175,7 +175,7 @@ hr {
             {% if page == paginator.page %}
                 <span class="current">{{ page }}</span>
             {% else %}
-                <a href="{{ paginator.page_path | replace: ':num', page }}" class="page">{{ page }}</a>
+                <a href="{{ paginator.paginate_path | replace: ':num', page }}" class="page">{{ page }}</a>
             {% endif %}
         {% endfor %}
 
