@@ -2,3 +2,5 @@
 title:          "1D10T1C STUD10S"
 description:    "1DST main website"
 url:            "https://1d10t1c-stud10s.github.io"
+paginate: 6
+paginate_path: "/blog/page:num"
