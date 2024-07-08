@@ -1,42 +1,42 @@
 [
     {
-        "title": "BotanyBase",
+        "name": "BotanyBase",
         "link": "https://botanybase.obl.ong",
         "image": "https://openbase.obl.ong/assets/BotanyBase.png",
         "description": "A Simple Website for Plant Identification!"
     },
     {
-        "title": "Scriptorite",
+        "name": "Scriptorite",
         "link": "https://scriptorite.proj.sbs",
         "image": "https://scriptorite.proj.sbs/SBanner.png",
         "description": "Imagine a museum, but online on a simple website. That's what Scriptorite is."
     },
     {
-        "title": "More to Explore",
+        "name": "More to Explore",
         "link": "https://more-to-explore.github.io",
         "image": "https://1d10t1c-stud10s.github.io/assets/img/MtEBanner.png",
         "description": "A little thrill, a little lore, a little adventure, a little... More to Explore..."
     },
     {
-        "title": "Adrift",
+        "name": "Adrift",
         "link": "https://adriftapp.github.io",
         "image": "https://1d10t1c-stud10s.github.io/assets/img/AdriftBanner.png",
         "description": "We need shadow to see what's light, death to see what's life, and evil to see what's right..."
     },
     {
-        "title": "Into the Light",
+        "name": "Into the Light",
         "link": "https://1d10t1c-stud10.github.io/into-the-light",
         "image": "https://1d10t1c-stud10s.github.io/assets/img/ovIKk+.png",
         "description": "Endless Bossfighting mayhem!"
     },
     {
-        "title": "Luminaura",
+        "name": "Luminaura",
         "link": "https://luminaura.github.io",
         "image": "https://luminaura.github.io/assets/img/banner.png",
         "description": "Luminous Parallax Wonderland :O"
     },
     {
-        "title": "Untitled Dungeon Game",
+        "name": "Untitled Dungeon Game",
         "link": "https://1d10t1c-stud10s.itch.io/untitled-dungeons-game",
         "image": "https://img.itch.zone/aW1nLzEzMDA2NzYyLmpwZWc=/315x250%23c/ygnSNV.jpeg",
         "description": "Your generic Dungeon Crawler"
